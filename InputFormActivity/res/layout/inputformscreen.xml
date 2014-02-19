@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su nombre"
+        android:id="@+id/txtForName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Por ejemplo, Juan"
+        android:id="@+id/edtTextName" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:id="@+id/btnSubmitName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mayuscula" 
+        android:id="@+id/mayuscula" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nombre"
+		android:id="@+id/Nombre">
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Apellido"
+        android:id="@+id/Apellido">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/IntroNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Nombre" />
+
+    <Button
+        android:id="@+id/IntroApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Apellido" />
+
+    <EditText
+        android:id="@+id/EPorcentaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Total"> 
+       <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/BPorcentaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Propina" />
+    
+</LinearLayout>

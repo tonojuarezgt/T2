@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">MallK</string>
+	<string name="action_settings">Settings</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="action_help">Ayuda</string>
+	<string name="action_share">Compartir</string>
+	<string name="title_activity_store_detail">StoreDetailActivity</string>
+	<string name="title_activity_store_det">StoreDetActivity</string>
+	<string name="Horario">Horarios:</string>
+	<string name="title_activity_img">ImgActivity</string>
+
+</resources>

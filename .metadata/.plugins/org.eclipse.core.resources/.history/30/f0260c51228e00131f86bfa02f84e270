@@ -1,0 +1,65 @@
+package com.example.mallk;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.Intent;
+import android.view.Menu;
+import android.widget.TextView;
+
+public class StoreDetActivity extends Activity {
+	
+	Intent intent = null;
+	//TextView textView;
+	TextView txvNombre;
+	TextView txvDireccion;
+	TextView txvTelefono;
+	TextView txvHorario;
+	TextView txvWebsite;
+	TextView txvEmail;
+	
+		
+	public static final int CONSTANTE1 = 0;
+	public static final String CADENA1 = "";
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		int indice = 0;
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_store_det);
+		intent = getIntent();
+		indice = intent.getIntExtra(CADENA1, CONSTANTE1);
+		txvNombre = (TextView)findViewById(R.id.textView1);
+		txvDireccion = (TextView)findViewById(R.id.textView2);
+		txvTelefono = (TextView)findViewById(R.id.textView3);
+		txvHorario = (TextView)findViewById(R.id.textView4);
+		txvWebsite = (TextView)findViewById(R.id.textView5);
+		txvEmail = (TextView)findViewById(R.id.textView6);
+
+		if (indice == 0) {
+			txvNombre.setText("Tienda 1");
+			txvDireccion.setText("18 Street, 1520 Miami, Fl");
+			txvTelefono.setText("55551234");
+			txvHorario.setText("Horario de 8:00 a 17:00 Hrs");
+			txvWebsite.setText("www.tienda1.com.gt");
+			txvEmail.setText("contacto@tienda1.com.gt");
+		} else {
+			txvNombre.setText("Tienda 2");
+			txvDireccion.setText("3 Avenue, Stanford, CA");
+			txvTelefono.setText("55551234");
+			txvHorario.setText("Horario de 8:00 a 17:00 Hrs");
+			txvWebsite.setText("www.tienda1.com.gt");
+			txvEmail.setText("contacto@tienda1.com.gt");
+		}
+		
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.store_det, menu);
+		return true;
+		
+	}
+	
+	
+
+}

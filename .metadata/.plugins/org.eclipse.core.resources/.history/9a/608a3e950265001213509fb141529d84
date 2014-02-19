@@ -1,0 +1,41 @@
+
+package com.android.labs;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class InputFormActivity extends Activity {
+
+@Override
+public void onCreate(Bundle savedInstanceState) {
+   super.onCreate(savedInstanceState);
+   setContentView(R.layout.inputformscreen);
+   Button btn = (Button)findViewById(R.id.btnSubmitName);
+  
+   btn.setOnClickListener(new OnClickListener() {	
+		@Override
+		public void onClick(View v) {
+		}
+	});
+   
+   btn.setOnClickListener(new OnClickListener() {	
+		@Override
+		public void onClick(View v) {
+			EditText etxt = (EditText)findViewById(R.id.edtTextName);
+			Intent i = new Intent(getApplicationContext(), 
+         HelloActivity.class);
+			i.putExtra("name", etxt.getText().toString());
+			startActivity(i);
+		}
+	});
+
+
+}
+
+
+}

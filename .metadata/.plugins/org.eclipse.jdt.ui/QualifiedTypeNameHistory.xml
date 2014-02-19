@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.os.Bundle"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="com.android.labs.R.id"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="com.example.demo1.MainActivity.ButtonListener"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="com.example.demo1.R.string"/>
+<fullyQualifiedTypeName name="android.view.ViewGroup.LayoutParams"/>
+<fullyQualifiedTypeName name="android.widget.LinearLayout"/>
+<fullyQualifiedTypeName name="com.example.demo1.R.layout"/>
+<fullyQualifiedTypeName name="android.widget.ScrollView"/>
+<fullyQualifiedTypeName name="android.widget.SeekBar.OnSeekBarChangeListener"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="android.widget.RatingBar"/>
+<fullyQualifiedTypeName name="com.example.demo1.R.id"/>
+<fullyQualifiedTypeName name="android.widget.Spinner"/>
+<fullyQualifiedTypeName name="android.widget.CheckBox"/>
+<fullyQualifiedTypeName name="com.example.mallk.R.id"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.net.Uri"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+</qualifiedTypeNameHistroy>
