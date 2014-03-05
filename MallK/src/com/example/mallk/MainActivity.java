@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 		
 		tiendas.add("Tienda 1");
 		tiendas.add("tienda 2");
-		tiendas.add("Foto");
+		tiendas.add("Imagen");
 		
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, tiendas);
 		
@@ -36,14 +36,16 @@ public class MainActivity extends Activity {
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
 				// TODO Auto-generated method stub
-			if(arg2!=0 && arg2 !=1){
-				intent = new Intent(getApplicationContext(),ImgActivity.class);
-				startActivity(intent);
-			}else{
+			if (arg2 == 0 || arg2 == 1){
 				intent = new Intent(getApplicationContext(),StoreDetActivity.class);
-				intent.putExtra(StoreDetActivity.CADENA1, arg2);
-				startActivity(intent);
+				intent.putExtra(StoreDetActivity.CADENA1, arg2);				
+			} else if (arg2 == 2) {
+				intent = new Intent(getApplicationContext(),ImgActivity.class);
+				intent.putExtra(StoreDetActivity.CADENA1, arg2);	
 			}
+			
+
+			startActivity(intent);
 			}});
 	}
 	

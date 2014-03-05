@@ -65,8 +65,16 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_alignLeft="@+id/linearLayout1"
-		android:layout_alignParentBottom="true"
-		android:layout_marginBottom="78dp"
-		android:text="Llamar"/>
+		android:layout_below="@+id/linearLayout1"
+		android:text="Llamar" />
+
+	<ListView
+		android:id="@+id/ListaComentarios"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/button1"
+		android:layout_centerHorizontal="true" >
+
+	</ListView>
 
 </RelativeLayout>

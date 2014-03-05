@@ -5,8 +5,4 @@
 		android:showAsAction="always"
 		android:title="@string/action_help"/>
 
-	<item
-		android:id="@+id/action_share"
-		android:showAsAction="always"
-		android:title="@string/action_share"/>
 </menu>
